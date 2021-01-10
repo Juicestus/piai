@@ -48,7 +48,8 @@ def main(flip,vid):
         if flip:
             frame = cv2.flip(frame,1) # Process Flip if Asked
 
-        
+        frame = frame.astype(np.uint8) 
+
         framejson = json.dumps(frame.tolist())
         response = requests.post(URL,json=framejson)
         response = json.loads(response.text)
