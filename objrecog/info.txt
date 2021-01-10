@@ -1,0 +1,21 @@
+Written by Justus Languell, 2020-2021, jus@gtsbr.org
+Python 3.8.7 Using ComputerVision2 and TensorFlow
+
+Object detetcion and other machine learning tests for use on robots
+
+Tree
+
+├── ai.py
+├── assets
+│   ├── frozenModel01.pb
+│   ├── frozenModel01.pbtxt
+│   └── labels.txt
+├── info.txt
+└── walk.mp4
+
+Notable resources used
+* https://www.thepythoncode.com/article/make-screen-recorder-python
+* https://github.com/mm5631/live_object_detection
+* https://gist.github.com/keithweaver/5bd13f27e2cc4c4b32f9c618fe0a7ee5
+
+
